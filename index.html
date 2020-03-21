@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono:500|Roboto:900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>IronChat</h1>
+    </nav>
+
+    <main>
+      <!-- Chat -->
+      <section id="chat"></section>
+
+      <!-- Input and the send button -->
+      <section id="input-wrapper">
+        <input type="text" id="message-input" placeholder="Type a message" />
+
+        <img id="message-send-btn-img" src="./images/send.png" alt="send button"/>
+      </section>
+    </main>
+
+    <!-- JS scripts are loaded after the HTML content/tags -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
