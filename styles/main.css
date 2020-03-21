@@ -5,17 +5,29 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
@@ -25,110 +37,41 @@ img {
 }
 
 /******** TYPOGRAPHY *********/
-h1, h2 {
-  font-family: 'Roboto', sans-serif;
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   letter-spacing: 0.5px;
 }
 
 h3 {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   letter-spacing: 0.2px;
 }
 
 /********  STYLES  **********/
 nav {
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  padding: 10px 20px;
-  background: #1E2434;
+  background: #1e2434;
   color: white;
-  box-shadow: 0 2px 3px #4e555c, 0 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 3px #4e555c, 0 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 main {
- display: flex;
- flex-direction: column;
- padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
-/******** CHAT *********/
-#chat {
-  height: calc(100vh - 110px);
-  padding: 60px 10px 0px 10px;
-  display: flex;
-  flex-direction: column;
-  box-sizing: content-box;
-  overflow-y: scroll;
-}
+/***    CHAT    ***/
 
-/******** INPUT BAR *********/
-#input-wrapper {
-  display: flex;
-  position: fixed;
-  bottom: 0;
-  width: 100vw;
-  height: 50px;
-  background: #2D354D;
-  padding: 10px 20px;
-}
+/*** INPUT BAR ***/
 
-#message-input {
-  width: calc(100vw - 100px);
-  height: 30px;
-  margin: 0px 16px;
-  padding: 2px 16px 2px 8px;
-  border-radius: 20px;
-  font-size: 14px;
-}
-
-#message-send-btn-img {
-  width: 32px;
-  height: 32px;
-  padding: 5px;
-}
-
-/******** MESSAGE *********/
+/***  MESSAGE  ***/
 .message {
-  margin: 8px;
-  padding: 5px 10px;
-  width: 60%;
-  max-width: 300px;
-  min-width: 100px;
-  border-radius: 8px;
-  padding: 12px 12px 18px 52px;
-  word-break: break-word;
-  line-height: 16px;
-  background: #FDF4EB;
-  box-shadow: 0 2px 3px #b0b6bb, 0 5px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 3px #b0b6bb, 0 5px 5px rgba(0, 0, 0, 0.1);
+  background: #fdf4eb; /* light orange */
+  /* background: #EAF3F8; */ /* light blue */
 }
-
-.align-right {
-  align-self: flex-end;
-  background: #EAF3F8;
-}
-
-.headline {
-  margin-bottom: 10px;
-  font-size: 12px;
-}
-
-.avatar {
-  width: 35px;
-  border-radius: 50%;
-  margin-left: -45px;
-  float: left;
-}
-
-
-.message-wrapper p {
-  font-size: 12px;
-}
-
