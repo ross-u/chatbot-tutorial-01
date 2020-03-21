@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono:500|Roboto:900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- <link rel="stylesheet" href="./styles/main.css" /> -->
   </head>
 
   <body>
@@ -19,17 +19,33 @@
 
     <main>
       <!-- Chat -->
-      <section id="chat"></section>
+      <section id="chat">
+        <div class="message">
+          <!-- <img src="./images/ironhack.png" class="avatar" alt="user avatar"/> -->
+          <h3 class="headline">Chatbot</h3>
+          <p>Hello. Welcome to the IronChat!</p>
+        </div>
+
+        <div class="message align-right">
+          <!-- <img src="./images/ironhack.png" class="avatar" alt="user avatar" /> -->
+          <h3 class="headline">Me</h3>
+          <p>Hi there!</p>
+        </div>
+      </section>
 
       <!-- Input and the send button -->
       <section id="input-wrapper">
         <input type="text" id="message-input" placeholder="Type a message" />
 
-        <img id="message-send-btn-img" src="./images/send.png" alt="send button"/>
+        <img
+          id="message-send-btn-img"
+          src="./images/send.png"
+          alt="send button"
+        />
       </section>
     </main>
 
     <!-- JS scripts are loaded after the HTML content/tags -->
-    <script src="./scripts/index.js"></script>
+    <!-- <script src="./scripts/index.js"></script> -->
   </body>
 </html>
