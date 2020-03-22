@@ -15,7 +15,7 @@ const replies = [
 //  GET THE DOM ELEMENTS
 const chat = document.getElementById("chat");
 const messageInput = document.getElementById("message-input");
-const sendButton = document.getElementById("message-send-btn-img");
+const sendButton = document.getElementById("message-send-img");
 
 // EVENT CALLBACK FUNCTION (ONCLICK / ENTER)
 function sendMessage() {
