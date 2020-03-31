@@ -25,7 +25,7 @@
 
  <br>
 
-### Getting Started
+## Getting Started
 
 <br>
 
@@ -47,7 +47,7 @@ The branch with the finished code is `completed`.
 
 <br>
 
-### Finished Example
+## Finished Example
 
 You can check the completed example by switching to the branch `completed`.
 
