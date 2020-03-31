@@ -1,15 +1,16 @@
 const replies = [
+  "Hello, Welcome to IronChat!",
+  "Ironhack's coding LAB a day keeps the bugs away!",
+  "Thank you for your visit. See you soon!",
+  "Goodbye!",
   "Nooo way! Same here!!!",
   "How does that feel on a scale from 1 to 10 ?",
   "Hmmmm ... interesting!",
   "That could be a problem.",
-  "I believe you. Some others may not, but I do believe you.",
   "Do not go to the bathroom in a dream. It’s a trap!",
   "It does make sense.",
   "Why is that?",
-  "Who?",
-  "Thank you for your visit. See you soon!",
-  "Ironhack coding LAB a day keeps the bugs away!"
+  "Who?"
 ];
 
 //  GET THE DOM ELEMENTS
@@ -67,7 +68,6 @@ function displayMessage(message, sender) {
     setTimeout(chatbotReply, 2000);
   }
 }
-
 // ADD EVENT LISTENERS
 sendButton.addEventListener("click", function() {
   sendMessage();
@@ -75,6 +75,6 @@ sendButton.addEventListener("click", function() {
 
 messageInput.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
-    sendMessage(event);
+    sendMessage();
   }
 });

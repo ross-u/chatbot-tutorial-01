@@ -24,6 +24,8 @@ img {
   height: auto;
 }
 
+input:focus { outline: none; }
+
 /******** TYPOGRAPHY *********/
 h1, h2 {
   font-family: 'Roboto', sans-serif;
@@ -43,41 +45,36 @@ p {
 
 /********  STYLES  **********/
 nav {
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  padding: 10px 20px;
   background: #1E2434;
   color: white;
   box-shadow: 0 2px 3px #4e555c, 0 5px 5px rgba(0,0,0,0.1);
+  padding: 10px 20px;
 }
 
 main {
- display: flex;
- flex-direction: column;
- padding-bottom: 50px;
+  /* padding-bottom: 50px; */ 
+  display: flex;
+  flex-direction: column;
 }
 
 /******** CHAT *********/
 #chat {
-  height: calc(100vh - 110px);
+  height: calc(100vh - 100px);
   padding: 60px 10px 0px 10px;
   display: flex;
   flex-direction: column;
-  box-sizing: content-box;
   overflow-y: scroll;
 }
 
 /******** INPUT BAR *********/
 #input-wrapper {
-  display: flex;
   position: fixed;
   bottom: 0;
   width: 100vw;
   height: 50px;
   background: #2D354D;
   padding: 10px 20px;
+  display: flex;
 }
 
 #message-input {
@@ -98,7 +95,6 @@ main {
 /******** MESSAGE *********/
 .message {
   margin: 8px;
-  padding: 5px 10px;
   width: 60%;
   max-width: 300px;
   min-width: 100px;
@@ -106,6 +102,7 @@ main {
   padding: 12px 12px 18px 52px;
   word-break: break-word;
   line-height: 16px;
+
   background: #FDF4EB;
   box-shadow: 0 2px 3px #b0b6bb, 0 5px 5px rgba(0,0,0,0.1);
 }
@@ -126,7 +123,6 @@ main {
   margin-left: -45px;
   float: left;
 }
-
 
 .message-wrapper p {
   font-size: 12px;
