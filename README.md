@@ -72,15 +72,15 @@ The branch with the finished code is `completed`.
 
 <br>
 
-## Finished Example - CodeSandbox
+## Finished Example - CodeSandbox repo
 
-You can check the completed example by visiting the link to [CodeSanbox - IronChat Completed example](https://codesandbox.io/s/ironchat-tutorial-completed-example-hdjs7)
+You can check the completed example by visiting the link to [CodeSanbox - IronChat Completed example](https://codesandbox.io/s/ironchat-tutorial-completed-example-hdjs7).
 
 <br>
 
-## Finished Example - branch `completed`
+## Finished Example - GitHub repo
 
-You can check the completed example by switching to the branch `completed`.
+If you have already cloned this repo you can check the completed example by switching to the branch `completed`.
 
 ```bash
 # Move to the branch `completed`
