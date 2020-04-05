@@ -72,7 +72,13 @@ The branch with the finished code is `completed`.
 
 <br>
 
-## Finished Example
+## Finished Example - CodeSandbox
+
+You can check the completed example by visiting the link to [CodeSanbox - IronChat Completed example](https://codesandbox.io/s/ironchat-tutorial-completed-example-hdjs7)
+
+<br>
+
+## Finished Example - branch `completed`
 
 You can check the completed example by switching to the branch `completed`.
 
@@ -91,6 +97,9 @@ git checkout starter-code
 ```
 
 <br>
+
+
+
 
 Enjoy! :rocket:
 
