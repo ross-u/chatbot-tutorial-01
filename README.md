@@ -27,6 +27,10 @@
 ```
 
  <br>
+ 
+ ![img](https://media.giphy.com/media/H4KntxhayNlw4ET1uf/giphy.gif)
+ 
+ <br>
 
 ## Getting Started
 If you would like to code along and create you own IronChat chatbot, you may get the starter code using one of the below options. You can either use the [CodeSandbox starter repo](https://codesandbox.io/s/ironchat-tutorial-0cysv), or as an alternative option clone this project repository to your local machine using `git`.
