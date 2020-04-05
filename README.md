@@ -74,7 +74,7 @@ The branch with the finished code is `completed`.
 
 ## Finished Example - CodeSandbox repo
 
-You can check the completed example by visiting the link to [CodeSanbox - IronChat Completed example](https://codesandbox.io/s/ironchat-tutorial-completed-example-hdjs7).
+You can check the completed example by visiting the link to [CodeSanbox - IronChat completed example](https://codesandbox.io/s/ironchat-tutorial-completed-example-hdjs7).
 
 <br>
 
