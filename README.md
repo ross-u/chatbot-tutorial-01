@@ -48,7 +48,7 @@ In order to be able to save your progress during the code along, make sure to cr
 ### Cloning the Project Repository
 
 As an alternative, you may [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and clone this repository using `git`, as described in the instructions below.
-The below instructions require you to have `git` installed
+The below instructions require you to have `git` installed.
 
 <br>
 
