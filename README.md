@@ -28,8 +28,13 @@
 
  <br>
  
- ![img](https://media.giphy.com/media/H4KntxhayNlw4ET1uf/giphy.gif)
+
  
+ 
+ <p align="center">
+  <img src="https://media.giphy.com/media/H4KntxhayNlw4ET1uf/giphy.gif" alt="tutorial preview animation"/>
+ </p>
+
  <br>
 
 ## Getting Started
