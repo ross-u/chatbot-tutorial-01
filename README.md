@@ -2,7 +2,10 @@
 
 <br>
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/3FIfXI3" data-context="false" ><a href="//imgur.com/a/3FIfXI3"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+ <p align="center">
+  <img src="https://media.giphy.com/media/H4KntxhayNlw4ET1uf/giphy.gif" alt="tutorial preview animation"/>
+ </p>
+ 
 <br>
 
 ## File structure
@@ -25,6 +28,9 @@
  ┃
  📜index.html
 ```
+
+ <br>
+
 
  <br>
 
