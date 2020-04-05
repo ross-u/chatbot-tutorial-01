@@ -47,7 +47,7 @@ In order to be able to save your progress during the code along, make sure to cr
 
 ### Cloning the Project Repository
 
-As an alternative, you may fork and clone this repository using `git`, as described in the instructions below.
+As an alternative, you may [fork](/ross-u/chatbot-tutorial-01/fork?fragment=1) and clone this repository using `git`, as described in the instructions below.
 The below instructions require you to have `git` installed
 
 <br>
