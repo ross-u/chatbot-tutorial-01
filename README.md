@@ -2,7 +2,10 @@
 
 <br>
 
-![img](https://i.imgur.com/uCHXrWT.png)
+ <p align="center">
+  <img src="https://media.giphy.com/media/H4KntxhayNlw4ET1uf/giphy.gif" alt="tutorial preview animation"/>
+ </p>
+ 
 <br>
 
 ## File structure
@@ -27,13 +30,7 @@
 ```
 
  <br>
- 
 
- 
- 
- <p align="center">
-  <img src="https://media.giphy.com/media/H4KntxhayNlw4ET1uf/giphy.gif" alt="tutorial preview animation"/>
- </p>
 
  <br>
 
